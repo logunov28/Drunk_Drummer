@@ -1,0 +1,6 @@
+from mido import Message, MidiFile, MidiTrack, second2tick
+
+path_to_mid = input("Вставьте путь к mid-файлу с ударными:")[1:-1]
+drums = MidiFile(path_to_mid)
+print (drums)
+x = input()
